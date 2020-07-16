@@ -4,7 +4,7 @@ public class Fibonacci {
 
 	public static void main(String[] args) {
 		//using for loop
-		/* int n = 10, t1 = 0, t2 = 1;
+		 int n = 10, t1 = 0, t2 = 1;
 	        System.out.print("First " + n + " terms: ");
 
 	        for (int i = 1; i <= n; ++i)
@@ -14,9 +14,9 @@ public class Fibonacci {
 	            int sum = t1 + t2;
 	            t1 = t2;
 	            t2 = sum;
-	        }*/
+	        }
 		//using while loop
-		int i=1, n=10,t1=0, t2=1;
+		/*int i=1, n=10,t1=0, t2=1;
 		System.out.println("First" + n + "terms");
 		
 		while(i<=n)
@@ -28,7 +28,7 @@ public class Fibonacci {
 			t2=sum;
 			++i;
 			
-		}
+		}*/
 		
 }
 
