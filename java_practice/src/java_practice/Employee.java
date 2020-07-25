@@ -1,8 +1,10 @@
 package java_practice;
 
+import java_practice.utility.employeeType;
+
 public class Employee {
 	private Address address;
-	private String type;
+	private employeeType type;
 	private String fullName;
 
 	public Address getAddress() {
@@ -13,11 +15,11 @@ public class Employee {
 		this.address = address;
 	}
 
-	public String getType() {
+	public employeeType getType() {
 		return type;
 	}
 
-	public void setType(String type) {
+	public void setType(employeeType type) {
 		this.type = type;
 	}
 
