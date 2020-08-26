@@ -1,6 +1,6 @@
 package java_airport;
 
-public class Passenger {
+public class PassengerInformation {
 	private String Name;
 	private int age;
 	private String address;

@@ -1,11 +1,13 @@
 package java_airport;
 
+import java.util.Date;
+
 public class FlightInformation {
 	private int flightNumber;
-	private String type;
+	private Date travelDate;
 	private String travelClass;
 	private String seatNumber;
-	private long bookingNuber;
+	private long bookingNumber;
 
 	public int getFlightNumber() {
 		return flightNumber;
@@ -15,12 +17,12 @@ public class FlightInformation {
 		this.flightNumber = flightNumber;
 	}
 
-	public String getType() {
-		return type;
+	public Date getType() {
+		return travelDate;
 	}
 
-	public void setType(String type) {
-		this.type = type;
+	public void setType(Date type) {
+		this.travelDate = type;
 	}
 
 	public String getTravelClass() {
@@ -40,11 +42,11 @@ public class FlightInformation {
 	}
 
 	public long getBookingNuber() {
-		return bookingNuber;
+		return bookingNumber;
 	}
 
-	public void setBookingNuber(long bookingNuber) {
-		this.bookingNuber = bookingNuber;
+	public void setBookingNuber(long bookingNumber) {
+		this.bookingNumber = bookingNumber;
 	}
 
 }
